@@ -1,0 +1,84 @@
+﻿/* Defaults
+----------------------------------------------- */
+:root{
+--txt-color: #235ad1;
+--size: 150px;
+}
+
+body{
+margin:0;
+background: #FAF2D6;
+color: #302E2D;
+font-family:Menlo,Monaco,monospace,verdana;
+}
+header{
+padding: 30px 60px;
+height: 100px;
+background: #494949;
+color: #fff;
+border-top: 4px solid #009688;
+border-bottom: 4px solid #FF9828;
+font-size: 20px;
+}
+section{
+padding: 10px 30px;
+display: block;
+background: #FAF2D6;
+font-size: 18px;
+}
+footer{
+padding: 10px;
+background: #494949;
+color: #fff;
+border-top: 4px solid #FF9828;
+border-bottom: 4px solid #009688;
+font-size: 14px;
+}
+img{
+max-width: 100%;
+display: block;
+}
+hr{
+margin: 50px auto;
+border: 0;
+border-bottom: 2px dashed #999;
+background: #000;
+}
+
+.line{
+
+}
+.container{
+width: 90%;/*calc(var(--size, 1) *7px);*/
+padding: 30px;
+position: relative;
+overflow: hidden;
+font: 20px Open Sans;
+font-size: 100%;;
+}
+#bg{
+margin: 10px auto;
+text-align: center;
+}
+#bg img{
+width:var(--size);
+height:var(--size);
+margin: 10px;
+float: left;
+-webkit-border-radius:50%;
+-moz-border-radius:50%;
+border: 2px solid #008a77;
+overflow: hidden;
+cursor: pointer;
+}
+/*
+#bg:hover > img{
+border-color: red;
+}
+*/
+#bg img:hover{
+border-color: yellow;
+}
+/* -------------- */
+/* 
+----------------------------------------------- */
